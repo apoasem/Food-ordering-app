@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elmo7tram.dssproject2.Profile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="@dimen/liner_Padding"
+            android:paddingRight="@dimen/liner_Padding"
+            >
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="180dp"
+                android:layout_height="@dimen/logo_height"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/edit_username"
+                android:layout_width="@dimen/width_profile"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/profile_marginBottom"
+                android:layout_marginLeft="@dimen/profile_marginLeft"
+
+                android:editable="false"
+                android:hint="@string/username_field"
+                android:inputType="textPersonName"
+                android:paddingTop="25dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="@dimen/width_profile"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/profile_marginBottom"
+                android:layout_marginLeft="@dimen/profile_marginLeft"
+                android:hint="@string/email_field"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edit_password"
+                android:layout_width="@dimen/width_profile"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/profile_marginBottom"
+                android:layout_marginLeft="@dimen/profile_marginLeft"
+                android:hint="@string/password_field"
+                android:inputType="textPassword"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edit_address"
+                android:layout_width="@dimen/width_profile"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/profile_marginBottom"
+                android:layout_marginLeft="@dimen/profile_marginLeft"
+                android:hint="@string/address_field"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="@dimen/width_profile"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/profile_marginBottom"
+                android:layout_marginLeft="@dimen/profile_marginLeft"
+                android:hint="@string/phone_field"
+                android:inputType="phone"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorlightRed"
+                android:text="@string/saveButton"
+
+                android:textColor="@color/colorwhite"
+
+                />
+
+            <Button
+                android:id="@+id/foodOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/colorlightRed"
+                android:text="Food Options"
+                android:textColor="@color/colorwhite" />
+
+            <Button
+                android:id="@+id/makeOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/colorlightRed"
+                android:text="Make Order"
+                android:textColor="@color/colorwhite" />
+
+            <Button
+                android:id="@+id/MngOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/colorlightRed"
+                android:text="@string/Mng_orders"
+                android:textColor="@color/colorwhite" />
+
+            <Button
+                android:id="@+id/SignOutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/background_dark"
+                android:text="@string/logout_btn"
+                android:textColor="@color/colorWhite" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

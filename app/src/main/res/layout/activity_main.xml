@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elmo7tram.dssproject2.MainActivity">
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/ET_name"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/ET_email"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/ET_address"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/ET_phone"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:hint="Phone" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/BtnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="78dp"
+        android:text="Submit"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:text="FOOD"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btnUserFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/BtnDone"
+        android:layout_marginEnd="56dp"
+        android:text="User Food" />
+
+    <Button
+        android:id="@+id/AdmOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnUserFood"
+        android:layout_alignTop="@+id/btnFood"
+        android:text="Admin Orders" />
+</RelativeLayout>

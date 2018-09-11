@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Restourant</string>
+    <string name="reg_usr">Username</string>
+    <string name="reg_pass">Password</string>
+    <string name="reg_mail">E-mail</string>
+    <string name="reg_address">Address</string>
+    <string name="reg_phone">Phone</string>
+    <string name="Btn_register">REGISTER</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="logout_btn">LOGOUT</string>
+    <string name="username_field">UserName</string>
+    <string name="password_field">Password</string>
+    <string name="signup_from_login">Donُ t Have An Account? </string>
+    <string name="title_activity_admin_menu">admin_menuActivity</string>
+    <string name="phone_field">Phone</string>
+    <string name="address_field">Address</string>
+    <string name="email_field">Email</string>
+    <string name="saveButton">Save</string>
+    <string name="SignUpButton">SignUp</string>
+    <string name="price">Price</string>
+    <string name="food_name">Food name</string>
+    <string name="Choose_image">Choose image</string>
+    <string name="add_food">Add food</string>
+    <string name="Food_List">Food list</string>
+    <string name="Mng_orders">Manage Orders</string>
+
+</resources>
