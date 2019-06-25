@@ -1,5 +1,16 @@
-Android Application For Food Ordering Separate login for admins & users
+Android Application For Food Ordering 
 
-Admin can : 1- Show profile info 2- update profile info 1- Add food category 2- Add food details (photo, name, price) 3- Show customers Orders 4- Approve Customer Order (delete it on confirm)
+Implemented Required Authentication and Authorization
 
-Any User Can : 1- Show Profile info 2- Update profile info 3- Show food categories 4- Order desired food
+Admin can: 
+i. Show profile info 
+ii. update profile info 
+iii. Add food category 
+iv. Add food details 
+v. Show Customers Orders 
+vi. Approve Customer Order 
+User   can: 
+i. Show Profile info 
+ii. Update profile info 
+iii. Show food categories 
+iv. Order desired food
